@@ -1,0 +1,6 @@
+development:
+    adapter: mysql2
+    encoding: utf8
+    database: quiz_development
+    pool: 5
+    username: root

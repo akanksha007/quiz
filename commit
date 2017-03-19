@@ -1,0 +1,6 @@
+Added Models required by the app
+
+1) Added the migration for the app
+2) Basic validation `foreign_key` constraint have been added
+
+https://trello.com/c/Qaws7f6C/2-2-design-and-implement-db-structure
