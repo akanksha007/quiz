@@ -1,0 +1,8 @@
+- @survey_tools.each do |survey_tool|
+  = survey_tool.id
+  = survey_tool.name
+  = link_to 'Delete Survey', admin_survey_path(survey_tool), method: "delete"
+  = link_to 'Edit Survey', edit_admin_survey_path(survey_tool)
+  %br
+%br
+= link_to 'Create Survey', new_admin_survey_path

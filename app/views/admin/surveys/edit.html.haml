@@ -1,0 +1,6 @@
+= form_for @survey_tool, url: {action: "update"} do |f|
+  = f.label :name
+  %br
+  = f.text_field :name
+  %br
+  = f.submit
